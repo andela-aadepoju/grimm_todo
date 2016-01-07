@@ -4,6 +4,6 @@ class MyPagesController < Grimm::Controller
   end
 
   def about
-    "About me"
+    @name = params["name"]
   end
 end
