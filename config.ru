@@ -1,2 +1,5 @@
+$LOAD_PATH << File.dirname(__FILE__)
 require "./config/application.rb"
-run GrimmTodo::Application.new
+GrimmApplication = GrimmTodo::Application.new
+require "./config/routes.rb"
+run GrimmApplication
