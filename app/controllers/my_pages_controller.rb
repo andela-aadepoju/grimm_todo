@@ -4,6 +4,6 @@ class MyPagesController < Grimm::Controller
   end
 
   def about
-   "after"
+   render :index, name: "Adebayo", lastname: "Adepoju"
   end
 end
