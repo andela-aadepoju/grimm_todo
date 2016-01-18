@@ -11,6 +11,9 @@ class PostsController < Grimm::Controller
 
   end
 
+  def edit
+
+  end
   def delete
 
   end

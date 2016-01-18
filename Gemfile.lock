@@ -3,7 +3,6 @@ PATH
   specs:
     grimm (0.2.0)
       pry
-      puma
       rack
       tilt
 
@@ -16,10 +15,9 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    puma (2.14.0)
     rack (1.6.4)
     slop (3.6.0)
-    tilt (2.0.1)
+    tilt (2.0.2)
 
 PLATFORMS
   ruby
@@ -28,4 +26,4 @@ DEPENDENCIES
   grimm!
 
 BUNDLED WITH
-   1.11.0
+   1.11.2
