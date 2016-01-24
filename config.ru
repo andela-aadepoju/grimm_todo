@@ -1,2 +1,7 @@
+#\ -p 4500
+
 require "./config/application.rb"
-run GrimmTodo::Application.new
+use Rack::Reloader, 0
+GrimmApplication = GrimmTodo::Application.new
+require "./config/routes.rb"
+run GrimmApplication

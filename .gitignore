@@ -8,4 +8,9 @@
 /spec/reports/
 /tmp/
 /index.html
-/.gitignorew
+/.gitignore
+/vendor/*
+/index.html
+/.gitignore
+/.DS_Store
+/db/grimm.db
