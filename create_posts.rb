@@ -1,8 +1,7 @@
 require "sqlite3"
-db = SQLite3::Database.new File.join "db", "grimm_db"
+db = SQLite3::Database.new File.join "db", "grimm.db"
 
 db.execute <<SQL
-
 create table posts(
 id integer primary key,
 header varchar(250),
