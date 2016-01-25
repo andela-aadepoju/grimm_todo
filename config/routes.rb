@@ -1,4 +1,4 @@
 GrimmApplication.route.draw do
-  root "posts#index"
-  resources :posts
+  root "lists#index"
+  resources :lists
 end
