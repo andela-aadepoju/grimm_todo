@@ -33,7 +33,7 @@ class ListsController < ApplicationController
     @lists.title = lists_params["title"]
     @lists.body = lists_params["body"]
     @lists.created_at = Time.now.to_s
-    @lists.done = false
+    @lists.done = "false"
     @lists.save
     redirect_to "/"
   end
